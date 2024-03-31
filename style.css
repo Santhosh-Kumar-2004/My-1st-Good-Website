@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navul {
+    list-style: none;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.827);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    padding: 20px;
+
+
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 55px;
+    background-color: rgba(128, 255, 0, 0.831);
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.ulitem {
+    padding: 15px 55px;
+}
+
+.ulitem:hover {
+    transform: scale(1.565);
+    color: aqua;
+}
+
+.ulitem:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+body {
+    background-color: bisque;
+}
+
+.seperator {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 50px 0px;
+}
+
+.seperator:hover {
+    cursor: grabbing;
+    height: 30px;
+    transition: all 1s ease-out;
+
+}
+
+.para1 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+.b1 {
+    font-size: larger;
+    background-color: lightpink;
+}
+
+.img1 {
+    height: 450px;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
+
+
+}
+
+.para2 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+.b2 {
+    font-size: larger;
+    background-color: lightpink;
+}
+
+.img2 {
+    height: 350px;
+    filter: brightness(2);
+    cursor: pointer;
+}
+
+.box2 {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
+
+}
+
+.para3 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+.b3 {
+    font-size: larger;
+    background-color: lightpink;
+}
+
+.img3 {
+    height: 350px;
+    cursor: pointer;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
+
+
+}
+
+.para4 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+.b4 {
+    font-size: larger;
+    background-color: lightpink;
+}
+
+.img4 {
+    height: 350px;
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.box4 {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
+
+}
+
+.spara {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+.infospan {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.124);
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: text;
+}
+
+.btn {
+    margin: 15px;
+    padding: 13px 3px;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    font-size: 22px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(27, 235, 27);
+    transform: scale(1.109);
+}
+
+.sechead {
+    text-align: center;
+    font-size: 25px;
+}
+
+.fooul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.fool {
+    padding: 8px;
+    font-size: 19px;
+    color: rgba(0, 0, 255, 0.813);
+    cursor: auto;
+}
+
+.socmed {
+    display: flex;
+}
+
+.thrdhead {
+    margin-bottom: 10px;
+}
+
+.socialm {
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 22px;
+
+}
+
+.socialm:hover {
+    transform: scale3d(1.20);
+    background-color: rgba(32, 178, 171, 0.74);
+    color: black;
+}
+
+@media screen and (max-width: 1010px) {
+    body{
+        display: inline-block;
+    }
+
+    .title{
+        display: block;
+    }
+
+    header {
+        background-color: red;
+        margin: auto;
+        display: inline-flex;
+    }
+
+    .h1{
+        background-color: bisque;
+    }
+
+    .box{
+        flex-direction: column-reverse;
+    }
+    .box2{
+        flex-direction: column-reverse;
+    }
+    .box3{
+        flex-direction: column-reverse;
+    }
+    
+    .box4{
+        flex-direction: column-reverse;
+    }
+
+    .infospan{
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .foodiv{
+        text-align: center;
+        margin-left: auto;
+    }
+}
